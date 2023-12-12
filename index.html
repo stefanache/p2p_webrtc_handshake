@@ -17,7 +17,7 @@
     <div>
 	<h4>Local Stream</h4>
 	<br/>
-	<span id=microphone_used style="right:0;position:fixed;"></span>
+	<span id="microphone_used" style="right:0;position:fixed;"></span>
     </div>
     <div>
 	<p>
@@ -53,7 +53,7 @@
 	var _chat_Channel;
 
 	function err_Handler(err) {
-	    console.log(err);
+	    console.log('err:',err);
 	}
 	    
 	function chat_Channel(e) {
@@ -64,7 +64,7 @@
 	        chat.innerHTML = dv_chat.innerHTML + "<pre>" + e.data + "</pre>"
 	    }
 	    _chat_Channel.onclose = function() {
-	        console.log('_chatChannel closed');
+	        console.log('_chat-Channel closed');
 	    }
 	}
 	    
@@ -74,20 +74,20 @@
 	        chat_Channel(_chat_Channel);
 	    }
 	    pc.createOffer().then(des => {
-	        console.log('createOffer ok ');
+	        console.log('create-Offer ok ');
 	        pc.setLocalDescription(des).then(() => {
 	            setTimeout(function() {
 	                if (pc.iceGatheringState == "complete") {
 	                    return;
 	                } else {
-	                    console.log('after GetherTimeout');
+	                    console.log('after Gether-Timeout');
 	                    localOffer.value = JSON.stringify(pc.localDescription);
 	                }
 	            }, 2000);
-	            console.log('setLocalDescription ok');
-	        }).catch(errHandler);
+	            console.log('set-Local-Description ok');
+	        }).catch(err_Handler);
 	        // For chat
-	    }).catch(errHandler);
+	    }).catch(err_Handler);
 	}
 	    
 	btn_remote_Offer_Get.onclick = function() {

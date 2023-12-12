@@ -96,7 +96,7 @@
 	}
 	    
 	btn_remote_Offer_Get.onclick = function() {
-	    var _remote_Offer = new RTCSessionDescription(JSON.parse(remoteOffer.value));
+	    var _remote_Offer = new RTCSessionDescription(JSON.parse(txt_remote_Offer.value));
 	    console.log('remote-Offer \n', _remote_Offer);
 	    pc.setRemoteDescription(_remote_Offer).then(
 		    function() {

@@ -71,8 +71,8 @@
 	    }
 	}
 
-	function copy_clipboard_textarea(txtarea_strg){
-	    document.querySelector(txtarea_strg).select();
+	function copy_clipboard_textarea_locallOffer(){
+	    document.querySelector('txt_local_Offer').select();
 	    document.execCommand('copy');
 	}
 	btn_local_Offer_Set.onclick = function() {
@@ -90,7 +90,7 @@
 			                } else {
 			                    console.log('after Gether-Timeout');
 			                    txt_local_Offer.value = JSON.stringify(pc.localDescription);
-					    copy_clipboard_textarea('txt_local_Offer');
+					    copy_clipboard_textarea_localOffer();
 			                }
 			            }, 2000);
 			            console.log('set-Local-Description ok');

@@ -121,8 +121,6 @@
 	    inp_send_Txt.value = "";
 	    return false;
 	}
-	    
-
 	
 	navigator.mediaDevices.getUserMedia({ audio: true, video: true }).then(stream => {
 	    local_Stream = stream;
@@ -131,7 +129,7 @@
 	    pc.addStream(stream);
 	    vdo_local.srcObject = stream;
 	    vdo_local.muted = true;
-	}).catch(errHandler);
+	}).catch(err_Handler);
 	    
 	pc.ondatachannel = function(e) {
 	    if (e.channel.label == "chat-Channel") {

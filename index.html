@@ -15,6 +15,7 @@
     <div>
 	<h4>Local Stream</h4>
 	<br/>
+	<span id=microphone_used style="right:0;position:fixed;"></span>
     </div>
     <div>
 	<p>
@@ -41,7 +42,24 @@
 		</form>
     </div>	  
     <script type="text/javascript">
-      
+      	var handshake_config = { iceServers: [{"urls":"stun:stun.l.google.com:19302"}] };
+	var pc = new RTCPeerConnection(handshake_config);
+	var local_Stream;
+	var chat_Enabled=true; 
+	var context;
+	var source;
+	var _chat_Channel;
+
+	navigator.mediaDevices.getUserMedia({ audio: true, video: true }).then(stream => {
+	    local_Stream = stream;
+    	    //Display the microphone used
+    	    microphone_used.innerHTML = local_Stream.getAudioTracks()[0].label;			
+	    pc.addStream(stream);
+	    vdo_local.srcObject = stream;
+	    vdo_local.muted = true;
+	}).catch(errHandler);
+
+	
     </script>
    </body>
 </html>

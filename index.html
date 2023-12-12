@@ -53,7 +53,7 @@
 	var _chat_Channel;
 
 	function err_Handler(err) {
-	    console.log('err:',err);
+	    console.log('err:\n',err);
 	}
 	    
 	function chat_Channel(e) {
@@ -75,17 +75,19 @@
 	    }
 	    pc.createOffer().then(des => {
 	        console.log('create-Offer ok ');
-	        pc.setLocalDescription(des).then(() => {
-	            setTimeout(function() {
-	                if (pc.iceGatheringState == "complete") {
-	                    return;
-	                } else {
-	                    console.log('after Gether-Timeout');
-	                    localOffer.value = JSON.stringify(pc.localDescription);
-	                }
-	            }, 2000);
-	            console.log('set-Local-Description ok');
-	        }).catch(err_Handler);
+	        pc.setLocalDescription(des).then(
+			() => {
+			            setTimeout(function() {
+			                if (pc.iceGatheringState == "complete") {
+			                    return;
+			                } else {
+			                    console.log('after Gether-Timeout');
+			                    localOffer.value = JSON.stringify(pc.localDescription);
+			                }
+			            }, 2000);
+			            console.log('set-Local-Description ok');
+			        }
+		).catch(err_Handler);
 	        // For chat
 	    }).catch(err_Handler);
 	}
@@ -112,9 +114,9 @@
 	    ).catch(err_Handler);
 	}
 	    
-	function sendMsg() {
+	function send_Msg() {
 	    var msg_text = inp_send_Txt.value;
-	    dv_chat.innerHTML = dv_chat.innerHTML + "<pre class="msg_sent">" + msg_text + "</pre>";
+	    dv_chat.innerHTML = dv_chat.innerHTML + '<pre class="msg_sent">' + msg_text + '</pre>'
 	    _chat_Channel.send(msg_text);
 	    inp_send_Txt.value = "";
 	    return false;
@@ -161,7 +163,6 @@
 	pc.onconnection = function(e) {
 	    console.log('onConnection ', e);
 	}
-
 	
     </script>
    </body>

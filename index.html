@@ -64,7 +64,7 @@
 	        console.log('_chat_Channel is open', e);
 	    }
 	    _chat_Channel.onmessage = function(e) {
-	        chat.innerHTML = dv_chat.innerHTML + "<pre>" + e.data + "</pre>"
+	        dv_chat.innerHTML = dv_chat.innerHTML + "<pre>" + e.data + "</pre>"
 	    }
 	    _chat_Channel.onclose = function() {
 	        console.log('_chat-Channel closed');

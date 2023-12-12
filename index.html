@@ -115,8 +115,8 @@
 	}
 	    
 	function frm_send_Msg() {
-	    var msg_text = inp_send_Txt.value();
-	    dv_chat.innerHTML = dv_chat.innerHTML + '<pre class="msg_sent">' + msg_text + '</pre>'
+	    var msg_text = inp_send_Txt.value;
+	    dv_chat.innerHTML = dv_chat.innerHTML + "<pre class='msg_sent'>" + msg_text + "</pre>"
 	    _chat_Channel.send(msg_text);
 	    inp_send_Txt.value = "";
 	    return false;

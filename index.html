@@ -72,8 +72,7 @@
 	}
 
 	function copy_clipboard_textarea_localOffer(){
-	    txt_local_Offer.select();
-	    document.execCommand('copy');
+
 	}
 	btn_local_Offer_Set.onclick = function() {
 	    if (chat_Enabled) {
@@ -90,7 +89,8 @@
 			                } else {
 			                    console.log('after Gether-Timeout');
 			                    txt_local_Offer.value = JSON.stringify(pc.localDescription);
-					    copy_clipboard_textarea_localOffer();
+			                    txt_local_Offer.select();
+			                    document.execCommand('copy');
 			                }
 			            }, 2000);
 			            console.log('set-Local-Description ok');

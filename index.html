@@ -38,7 +38,7 @@
     <div id="dv_chat" style="overflow:scroll;"></div>
     <div>
 		<br><br>
-		<form action="" onsubmit="event.preventDefault();return send_Msg();">
+		<form action="" onsubmit="event.preventDefault();return frm_send_Msg();">
 			<input id="inp_send_Txt type="text" name="" placeholder="please chat here" size="50">
 			<button type="submit">send</button>		
 		</form>
@@ -114,8 +114,8 @@
 	    ).catch(err_Handler);
 	}
 	    
-	function send_Msg() {
-	    var msg_text = inp_send_Txt.value;
+	function frm_send_Msg() {
+	    var msg_text = inp_send_Txt.value();
 	    dv_chat.innerHTML = dv_chat.innerHTML + '<pre class="msg_sent">' + msg_text + '</pre>'
 	    _chat_Channel.send(msg_text);
 	    inp_send_Txt.value = "";

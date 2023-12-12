@@ -6,7 +6,9 @@
   	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />	  
   	<title>P2P WebRTC(manual handshake)</title>
   	<style type="text/css">
-      
+		.msg_sent{
+			color:blue;
+		}      
   	</style>
   </head>
 
@@ -21,7 +23,7 @@
 	<p>
 		<video width=250 id="vdo_local" controls autoplay></video>
 		Local
-		<textarea rows="4" cols="50"  id="txt_local_Offer"></textarea>
+		<textarea rows="5" cols="50"  id="txt_local_Offer"></textarea>
 		<button id="btn_local_Offer_Set">Create-Offer</button>	
 	</p>	
     </div>
@@ -29,8 +31,8 @@
 	<p>
 		<video width=250 id="vdo_remote" controls autoplay></video>
 		Remote
-		<textarea id="txt_remote_Offer" rows="4" cols="50" placeholder="Paste remote SDP"></textarea>
-		<button id="btn_remote_Offer_Got">Answer</button>
+		<textarea id="txt_remote_Offer" rows="5" cols="50" placeholder="Paste remote SDP"></textarea>
+		<button id="btn_remote_Offer_Get">Answer</button>
 	</p>	
     </div>
     <div id="dv_chat" style="overflow:scroll;"></div>
@@ -50,6 +52,76 @@
 	var source;
 	var _chat_Channel;
 
+	function err_Handler(err) {
+	    console.log(err);
+	}
+	    
+	function chat_Channel(e) {
+	    _chat_Channel.onopen = function(e) {
+	        console.log('_chat_Channel is open', e);
+	    }
+	    _chat_Channel.onmessage = function(e) {
+	        chat.innerHTML = dv_chat.innerHTML + "<pre>" + e.data + "</pre>"
+	    }
+	    _chat_Channel.onclose = function() {
+	        console.log('_chatChannel closed');
+	    }
+	}
+	    
+	btn_local_Offer_Set.onclick = function() {
+	    if (chat_Enabled) {
+	        _chat_Channel = pc.createDataChannel('chat-Channel');
+	        chat_Channel(_chat_Channel);
+	    }
+	    pc.createOffer().then(des => {
+	        console.log('createOffer ok ');
+	        pc.setLocalDescription(des).then(() => {
+	            setTimeout(function() {
+	                if (pc.iceGatheringState == "complete") {
+	                    return;
+	                } else {
+	                    console.log('after GetherTimeout');
+	                    localOffer.value = JSON.stringify(pc.localDescription);
+	                }
+	            }, 2000);
+	            console.log('setLocalDescription ok');
+	        }).catch(errHandler);
+	        // For chat
+	    }).catch(errHandler);
+	}
+	    
+	btn_remote_Offer_Get.onclick = function() {
+	    var _remote_Offer = new RTCSessionDescription(JSON.parse(remoteOffer.value));
+	    console.log('remote-Offer \n', _remote_Offer);
+	    pc.setRemoteDescription(_remote_Offer).then(
+		    function() {
+		        console.log('set-Remote-Description ok');
+		        if (_remote_Offer.type == "offer") {
+		            pc.createAnswer().then(
+				    function(description) {
+			                console.log('create-Answer 200 ok \n', description);
+			                pc.setLocalDescription(description).then(
+						function() {
+							/* not used */
+						}
+					).catch(err_Handler);
+			            }
+			    ).catch(err_Handler);
+		        }
+		    }
+	    ).catch(err_Handler);
+	}
+	    
+	function sendMsg() {
+	    var msg_text = inp_send_Txt.value;
+	    dv_chat.innerHTML = dv_chat.innerHTML + "<pre class="msg_sent">" + msg_text + "</pre>";
+	    _chat_Channel.send(msg_text);
+	    inp_send_Txt.value = "";
+	    return false;
+	}
+	    
+
+	
 	navigator.mediaDevices.getUserMedia({ audio: true, video: true }).then(stream => {
 	    local_Stream = stream;
     	    //Display the microphone used
@@ -58,6 +130,37 @@
 	    vdo_local.srcObject = stream;
 	    vdo_local.muted = true;
 	}).catch(errHandler);
+	    
+	pc.ondatachannel = function(e) {
+	    if (e.channel.label == "chat-Channel") {
+	        console.log('_chat-Channel Received -', e);
+	        _chat_Channel = e.channel;
+	        chat_Channel(e.channel);
+	    }
+	};
+
+	pc.onicecandidate = function(e) {
+	    var e_cand = e.candidate;
+	    if (!e_cand) {
+	        console.log('ice-Gathering-State complete\n', pc.localDescription.sdp);
+	        txt_local_Offer.value = JSON.stringify(pc.localDescription);
+	    } else {
+	        console.log('canditate:\n',e_cand.candidate);
+	    }
+	}
+
+	pc.oniceconnectionstatechange = function() {
+	    console.log('ice-connection-state-change: ', pc.iceConnectionState);
+	}
+
+	pc.ontrack = function (e){
+	    console.log('remote-onTrack', e.streams);
+	    vdo_remote.srcObject = e.streams[0];
+	}
+	    
+	pc.onconnection = function(e) {
+	    console.log('onConnection ', e);
+	}
 
 	
     </script>

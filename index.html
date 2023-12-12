@@ -89,6 +89,8 @@
 			                } else {
 			                    console.log('after Gether-Timeout');
 			                    txt_local_Offer.value = JSON.stringify(pc.localDescription);
+					    
+			                    /* copy Local-Description into clipboard */
 			                    txt_local_Offer.select();
 			                    document.execCommand('copy');
 			                }

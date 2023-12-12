@@ -70,7 +70,11 @@
 	        console.log('_chat-Channel closed');
 	    }
 	}
-	    
+
+	function copy_clipboard_textarea(txtarea_strg){
+	    document.querySelector(txtarea_strg).select();
+	    document.execCommand('copy');
+	}
 	btn_local_Offer_Set.onclick = function() {
 	    if (chat_Enabled) {
 	        _chat_Channel = pc.createDataChannel('chat-Channel');
@@ -86,6 +90,7 @@
 			                } else {
 			                    console.log('after Gether-Timeout');
 			                    txt_local_Offer.value = JSON.stringify(pc.localDescription);
+					    copy_clipboard_textarea('txt_local_Offer');
 			                }
 			            }, 2000);
 			            console.log('set-Local-Description ok');

@@ -26,19 +26,20 @@ How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 	         his(her's) Answer's textarea(see below rectangular textarea)
 	10. your-friend: copy-paste the content received via email to put it in his Answer's textarea
 	11. your-friend: click on "Answer" button... and waiting... to generate/apear one text into the
-	        above textarea rectangular-box "Create-Offer"-named
+	        	 above textarea rectangular-box "Create-Offer"-named
 	12. your-friend: click on "Create-Offer" button(maybe better said: "Create Contra-Offer");
- 	        this step is already done(in automatically-mode) in step 11.... so you can 
- 	        skip it if you want.
- 	        (I put this step 12 to see that the thinks will be done as in miror/similary)
+ 	        	 this step is already done(in automatically-mode) in step 11.... so you can 
+ 	        	 skip it if you want.
+ 	        	 (I put this step 12 to see that the thinks will be done as in miror/similary)
 	13. your-friend: then, copy(Ctrl+A and Ctrl+V) the content generated into "Create-Offer"
-	        textarea box  and  then he send(emailed) it to you(Ctrl+V)
+	        	 textarea box  and  then he send(emailed) it to you(Ctrl+V)
 	14. you: will receive the email from your-friend and copy-paste it into "Answer" textarea box
-	        and then click on "Answer" button
+	         and then click on "Answer" button
 	15. you: ...waiting to see in video the siluet/face of your friend...then
 	16. you: begin chatting: write some text as message and then send it to your friend by click on 
 	        "Send" button(the last control button)
 	17. your-friend: simmilary send to you one response
+ 
 	... and so on...enjoy!
 
 <a href="https://stefanache.github.io/p2p_webrtc_handshake/">Remark</a>

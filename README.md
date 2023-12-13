@@ -11,10 +11,10 @@ How can use it(how proceed to) in manual-handshake peer-to-peer(p2p) case?
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
 	5. your-friend: waiting... (both end-persons must be ... patient in manual p2p handshake... :)
 	6. you: click on button labeled as "Create-Offer" and waiting until will be generated/written some text ...
-	        in it's associate textarea-box
+	        in its associate textarea-box
 	7. you: copy this selected text in yours clipboard(copy-paste):
 		   click on your Offer's textarea...then
-		   Ctrl+A to select it's content and then
+		   Ctrl+A to select its content and then
 		   Ctrl+C to copy it into your clipboard.
 	8. you: then, send copy-pasted content using web-email
  	        (paste the content with Ctrl+V into message body @ yahoo.com, gmail.com, outlook.com...)

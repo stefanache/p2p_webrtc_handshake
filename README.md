@@ -79,8 +79,7 @@ the past, to can begin one new experiment/showcase... and then:
 
    For more details you can consult <a href="https://subspace.com/resources/stun-101-subspace">that</a> tutorial(wiki: <a href="https://en.wikipedia.org/wiki/NAT_traversal">NAT traversal</a>).
    It should also be mentioned that "Tranversal NAT" is not the only method/approach to penetrate/punch/perforate or avoid behind firewalls, proxies or such protection/security barriers/walls that are 
-   (or are already in operation) ) in ...
-   our end-to-end (e2e) communication path
+   (or are already in operation) ) in ...   our end-to-end (e2e) communication path.
    
    If want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository
    (Congratulation and thank you ... a lot for ... this code!) to add specific code for this part[s].

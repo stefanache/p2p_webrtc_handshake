@@ -2,7 +2,8 @@
 
 How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 
-	1. you: open Chrome browser and write this link/address: https://stefanache.github.io/p2p_webrtc_handshake/
+	1. you: open Chrome browser and write this link/address: 
+ 	        "https://stefanache.github.io/p2p_webrtc_handshake/"
 	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your...
  	        friend via email. In this email you even can inform your friend about this procedure... 
  	         shown in my this showcase:

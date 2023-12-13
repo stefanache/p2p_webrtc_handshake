@@ -84,7 +84,8 @@ the past, to can begin one new experiment/showcase... and then:
    If want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository
    (Congratulation and thank you ... a lot for ... this code!) to add specific code for this part[s].
    
-   Note: we can avoid this heavy part of manual handshake-procedure from our webrtc-chat app using the automation of this process to can "automatically" store in back-end(maybe php-based for e.g.)the content of messeges(the SDPs) in some servers(for eg.  
+   Note: 
+   We can avoid this heavy part of manual handshake-procedure from our webrtc-chat app using the automation of this process to can "automatically" store in back-end(maybe php-based for e.g.)the content of messeges(the SDPs) in some servers(for eg.  
    db-server based like "MySQL"+"PhP" or maybe one service like "Firebase") and in this-case need/must in backend one external web-[micro]service(which implement protocol like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... 
    or UDP/TCP/raw-socket or other/any protocol service,certainly with one exception: webrtc ... :) ... because the implementation of webrtc cannot be based on itself)to transport the ascii-information(plain-text) exchanged(with or no encryption) between both ends.
    In this last case(automatic solution), to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" implemented as third/broker/intermediate part(as ICE-servers: STUN-like or TURN-like).

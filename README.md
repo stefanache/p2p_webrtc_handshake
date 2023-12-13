@@ -91,6 +91,6 @@ the past, to can begin one new experiment/showcase... and then:
    In this last case(automatic solution), to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" implemented as third/broker/intermediate part(as ICE-servers: STUN-like or TURN-like).
    This own complicated task of implementing of third-parts can be done by you or can use(for free or no, with installemnt or no) ready-made solutions( in this case, for free, the ghithub-repositories can be the most good CDN-friend for you :)
    
-   From your point-view, as client of these ready-made public remote-servers, it can be seen as one "serverless"-solution because for you the single task remain to using(even locally) this remote service/server and not to done/implementimg it.
-   These kind of models of application(serverless) is very important because permit to have implementation of one light-client which is maybe simple static page(like this index.html page of chatting) and it can be hosted maybe into CDN  for e.g. 
+   From your point-view, as client of these ready-made public remotely-hosted-services/servers, it can be seen as one "serverless"-solution because for you the single task remain to using(even locally) this remote service/server and not to done/implementimg it.
+   These kind of models of application(serverless) is very important because permit to have implementation of one light-client which is maybe simple static page(like this index.html page of chatting) and which can be hosted maybe into CDN  for e.g. 
    (github-like for free)

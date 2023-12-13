@@ -4,8 +4,10 @@ How can use it(how proceed to handshake peer-to-peer/p2p)?
 
 	1. you: open Chrome browser and open this link: https://stefanache.github.io/p2p_webrtc_handshake/
 	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your friend
-	3. you call your friend and tell to open and he in its browser same <a href="https://stefanache.github.io/p2p_webrtc_handshake/">link</a>
-	4. your-friend: open Chrome browser and open this <a href="https://stefanache.github.io/p2p_webrtc_handshake/">link</a>
+	3. you call your friend and tell to open and he in its browser same link
+ 	   ("https://stefanache.github.io/p2p_webrtc_handshake/")
+	4. your-friend: open Chrome browser and open this link
+ 	   ("https://stefanache.github.io/p2p_webrtc_handshake/")
 	5. your-friend: waiting...must be patient:)
 	6. you: click on button labeled as "Create-Offer" and waiting to generate/write some text in it's associate textarea-box
 	7. you: copy this selected text in yours clipboard(copy-paste):

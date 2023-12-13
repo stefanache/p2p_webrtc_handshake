@@ -40,7 +40,7 @@ For that close the browser if have something opened(in Browser) which running in
    
    c. follow the above steps...(where replace "your-friend"-role with "you"-role :)...enjoy!
 
-   Also can be both roles("you" and"your-friendly") can running locally or in separate PC-machine.
+   Also can be both roles("you" and "your-friend") can running locally or in separate PC-machine.
 
    
    

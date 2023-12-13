@@ -41,4 +41,4 @@ For that close the browser if have something opened(in Browser) which running in
 
    Also can be both roles("you" and"your-friendly") can running locally or in separate PC-machine.
    
-   So the roles("you" and"your-friendly") can running in any combination of locally(on PC) and/or remotely(github)
+   So the roles("you" and"your-friendly") can running in any combination of locally(on PC) and/or remotely(github or other CDn or other hosting)

@@ -20,10 +20,10 @@ How can use it(how proceed to handshake peer-to-peer/p2p)?
 	9. you: call your friend and tell that you send/emailed one text-content which need to put in 
            her's Answer's textarea)
 	10. your-friend: copy-paste the content received via email and put it in your Answer's textarea...then
-	11. your-friend: click on "Answer" button... and waiting to generate/apear one text in his "Create-Offer" 
-            textarea box.
-	12. your-friend: then, copy(Ctrl+A and Ctrl+V) the content generated into "Create-Offer" textarea box and 
- 	    emailed to you(Ctrl+V)
+	11. your-friend: click on "Answer" button... and waiting to generate/apear one text in his 
+            "Create-Offer"  textarea box.
+	12. your-friend: then, copy(Ctrl+A and Ctrl+V) the content generated into "Create-Offer" textarea box 
+ 	    and  emailed to you(Ctrl+V)
 	13. you: will receive the email from your-friend and copy-paste it into "Answer" textarea box and then 
  	    click on "Answer" button
 	14. you: waiting to see the video with your friend...then

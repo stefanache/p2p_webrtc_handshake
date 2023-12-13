@@ -66,11 +66,11 @@ the past, to can begin one new experiment/showcase... and then:
    from pull of public servers exposed and in function at the run-time as broker(intermediate or third part).
    
    In this code( in main file index.html) you can see how indicate or configurate that ICE-servers(STUN and/or TURN):
-
+         	...
          	var handshake_config = { iceServers: [{"urls":"stun:stun.l.google.com:19302"}] };
           
 	        var pc = new RTCPeerConnection(handshake_config);
-   
+            	...
    For more details you can consult <a href="https://subspace.com/resources/stun-101-subspace">that</a> tutorial(wiki: <a href="https://en.wikipedia.org/wiki/NAT_traversal">NAT traversal</a>).
    
    Finally, if want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository

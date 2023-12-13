@@ -80,7 +80,7 @@ the past, to can begin one new experiment/showcase... and then:
    our end-to-end (e2e) communication path
    
    Finally, if want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository
-   (Congratulation and thanks a lot for this code!) 
+   (Congratulation and thank you ... a lot for ... this code!) 
    
    Note: we can avoid this heavy manual handshake-procedure with one automation-process to can automatically store the content of messeges(SDPs) in some servers(for eg.  db-server like "MySQL" or maybe one service like "Firebase") and 
    in this-case need one external web-[micro]service(which implement protocols like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... or UDP/TCP/raw-socket or other protocol service ) to transport the 

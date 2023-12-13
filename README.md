@@ -65,7 +65,7 @@ the past, to can begin one new experiment/showcase... and then:
    So the roles("you" and "your-friend") can running in any combination of locally(on his PC) and/or remotely(using my github repository or other repository/CDN/hosting)
 
    Anyway, regardless of what approach you will can have the PC-machines certainly will can use NAT(in/over internet use-case) with or no firewalls,proxies,... 
-   And in this case the handshake must be able to avoid all these obstacles(see Note *) maybe by using one external STUN and/or TURN server(which is part of ICE group of servers), from the pull of public exposed and in operation (at the my chatting-app's run-time) servers, as broker(intermediate or third part).
+   And in this case the handshake must be able to avoid all these obstacles(see Note *) maybe by using one external STUN and/or TURN server(which is part of ICE group of servers), from the pull of public exposed and being in operation (at the my chatting-app's run-time) servers, as broker(intermediate or third part).
    
    In this code( in main file index.html) you can see how indicate or configurate that ICE-servers(STUN and/or TURN):
    
@@ -79,7 +79,7 @@ the past, to can begin one new experiment/showcase... and then:
 
    For more details linked of ICE-servers, you can consult <a href="https://subspace.com/resources/stun-101-subspace">that</a> tutorial(wiki: <a href="https://en.wikipedia.org/wiki/NAT_traversal">NAT traversal</a>).
    It should also be mentioned that "Tranversal NAT" is not the only method/approach to penetrate/punch/perforate or avoid the set of firewalls, proxies or such protection/security barriers/walls that is/are 
-   (or are already in operation) resides in my locally network, in behind of my internet-router as last or marginal point in ...   our end-to-end (e2e) communication path.
+   (or are already in operation) resides in my locally network, in behind of my internet-router as last or marginal point being in ...   our end-to-end (e2e) communication path.
    
    If want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository
    (Congratulation and thank you ... a lot for ... this code!) to add specific code for this part[s].

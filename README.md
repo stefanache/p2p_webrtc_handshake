@@ -68,9 +68,11 @@ the past, to can begin one new experiment/showcase... and then:
    In this code( in main file index.html) you can see how indicate or configurate that ICE-servers(STUN and/or TURN):
    
             	...
+         	
          	var handshake_config = { iceServers: [{"urls":"stun:stun.l.google.com:19302"}] };
           
 	        var pc = new RTCPeerConnection(handshake_config);
+         	
             	...
 
    For more details you can consult <a href="https://subspace.com/resources/stun-101-subspace">that</a> tutorial(wiki: <a href="https://en.wikipedia.org/wiki/NAT_traversal">NAT traversal</a>).

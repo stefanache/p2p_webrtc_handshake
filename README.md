@@ -31,7 +31,7 @@ For testing you can replace "your-friend"(which means the remotely-peer dialog) 
 
 So in this case you can remotely-chating beetwen "you-remote from github" with "you-local from your PC/Laptop/Computer".
 
-For that close the browser if have something opened and then:
+For that close the browser if have something opened(in Browser) which running in the past and then:
 
    a. you: download this repository into your desktop
    

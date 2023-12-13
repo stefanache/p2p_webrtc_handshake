@@ -89,4 +89,4 @@ the past, to can begin one new experiment/showcase... and then:
    in this-case need one external web-[micro]service(which implement protocols like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... or UDP/TCP/raw-socket or other/any protocol service with one 
    exception: webrtc... :) to transport the information exchanged(with or no encryption) between both ends.
    In this last case, to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" implemented as third/broker/intermediate part(as ICE-servers: STUN-like or TURN-like).
-   This own complicated task of implementing of third-parts can be done by you or can use(for free or no) ready-made solutions( in this case, for free the ghithub can be the most CDN-friend for you :)
+   This own complicated task of implementing of third-parts can be done by you or can use(for free or no) ready-made solutions( in this case, for free, the ghithub-repositories can be the most good CDN-friend for you :)

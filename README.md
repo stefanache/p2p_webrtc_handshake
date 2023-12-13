@@ -101,6 +101,6 @@ the past, to can begin one new experiment/showcase... and then:
    These kind of models of application(serverless) is very important because permit to have implementation of one light-client which is maybe simple static page(like this index.html page of chatting) and which can be hosted maybe into CDN  for e.g. 
    (github-like for free)
 
-   Finally, it should also be said that in the transport of audio+video information (media-streaming) other specific protocols are involved (RTP, RTMP,...)
+   Finally,in this note, maybe it should also be said that in the transport of audio+video information (media-streaming) other specific protocols are involved (RTP, RTMP,...)
 
  

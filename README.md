@@ -52,11 +52,11 @@ Also can use same your computer for both roles and in this case the "your-friend
 For that close the browser if have something opened(tried or loading in your/his Browser something linked of this subject) which running from...
 the past, to can begin one new experiment/showcase... and then:
 
-	   a. you: download this repository into your desktop
+	   a. one role: download this repository into your desktop
 	   
-	   b. click to run locally the batch file "runAsAdmin_p2p_handshake.bat"
+	   b. one role: click to run locally the batch file "runAsAdmin_p2p_handshake.bat"
 	   
-	   c. follow the above steps...(where replace "your-friend"-role with "you"-role :)...enjoy!
+	   c. one role: follow the above steps...(where replace "your-friend"-role with "you"-role :)...enjoy!
 
    Also can be both roles("you" and "your-friend") can running locally on same PC-machine or in separate PC-machines.
       

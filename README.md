@@ -64,8 +64,8 @@ the past, to can begin one new experiment/showcase... and then:
       
    So the roles("you" and "your-friend") can running in any combination of locally(on his PC) and/or remotely(using my github repository or other repository/CDN/hosting)
 
-   Anyway, regardless of what approach you will can have the PC-machines with or no firewalls because the handshake can avoid these obstacles using one public external STUN server(which is part of ICE group of servers) 
-   from pull of public servers exposed and in function at the run-time as broker(intermediate or third part).
+   Anyway, regardless of what approach you will can have the PC-machines which certainly can use NAT(in/over internet use-case) with or no firewalls,proxies,... because the handshake can avoid(see Note *)  
+   these obstacles using one public external STUN server(which is part of ICE group of servers) from pull of public servers exposed and in function at the run-time as broker(intermediate or third part).
    
    In this code( in main file index.html) you can see how indicate or configurate that ICE-servers(STUN and/or TURN):
    

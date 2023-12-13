@@ -88,7 +88,7 @@ the past, to can begin one new experiment/showcase... and then:
    
    We can avoid this heavy part of manual handshake-procedure from our webrtc-chat app using the automation of this process to can "automatically" store in back-end(maybe php-based for e.g.)the content of messeges(the SDPs) in some servers(for eg.  
    db-server based like "MySQL"+"PhP" or maybe one service like "Firebase") and in this-case need/must in backend one external web-[micro]service(which implement one protocol like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, HTTP[/2], WebTransport, Websocket, Pub/Sub,... 
-   or UDP/TCP/raw-socket or other/any protocol service,certainly with one exception: webrtc(see **) to transport the ascii-information(plain-text) exchanged(with or no encryption) between both ends.
+   or UDP/TCP/raw-socket or other/any protocol service,certainly with one exception: WebRTC(see **) to transport the ascii-information(plain-text) exchanged(with or no encryption) between both ends.
    
    (** because the implementation of webrtc certainly cannot be based on itself :)
    

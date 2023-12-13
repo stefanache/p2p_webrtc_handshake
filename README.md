@@ -3,25 +3,25 @@
 How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 
 	01. you: open Chrome browser and write this link/address: 
- 	        "https://stefanache.github.io/p2p_webrtc_handshake/"
+ 	         "https://stefanache.github.io/p2p_webrtc_handshake/"
 	02. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your
- 	        friend via email. In this email you even can inform your friend about this procedure
+ 	         friend via email. In this email you even can inform your friend about this procedure
  	         shown in my this showcase:
- 	        "https://github.com/stefanache/p2p_webrtc_handshake/blob/main/README.md"
+ 	         "https://github.com/stefanache/p2p_webrtc_handshake/blob/main/README.md"
 	03. you: call your-friend and tell to open and he(she), in his(her's) browser, the same received 
- 	        link: "https://stefanache.github.io/p2p_webrtc_handshake/"
+ 	         link: "https://stefanache.github.io/p2p_webrtc_handshake/"
 	04. your-friend: open Chrome browser and write this received link via email:
- 	        "https://stefanache.github.io/p2p_webrtc_handshake/"
+ 	        	 "https://stefanache.github.io/p2p_webrtc_handshake/"
 	05. your-friend: waiting... (BTW both end-persons must be ... patient in manual p2p handshake :)
 	06. you: click on button labeled as "Create-Offer" and waiting... until will be generated/written
-	        some text in its associate/joined textarea-box
+	         some text in its associate/joined textarea-box
 	07. you: copy this selected text in yours clipboard(copy-paste):
 		   click on your Offer's textarea...then
 		   Ctrl+A to select its content and then
 		   Ctrl+C to copy it into your clipboard.
 	08. you: then, send this copy-pasted content using web-email(if want, you can use any alternative
- 	        of communication-channel)
- 	        Note: paste the content with Ctrl+V into message body @ yahoo.com, gmail.com, outlook.com
+ 	         of communication-channel)
+ 	         Note: paste the content with Ctrl+V into message body @ yahoo.com, gmail.com, outlook.com
 	09. you: call your friend and tell that you send/emailed one text-content which he need to put in
 	         his(her's) Answer's textarea(see below rectangular textarea)
 	10. your-friend: copy-paste the content received via email to put it in his Answer's textarea

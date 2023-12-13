@@ -23,7 +23,7 @@ How can use it(how proceed to handshake peer-to-peer/p2p)?
 16. your-friend: simmilary send and you one response
 17. and so on...enjoy!
 
-Remark:
+<u>Remark:</u>
 For testing you can replace "your-friend"(which means the remotely-peer dialog) with local-peer.
 So in this case you can remotely-chating beetwen "you-remote from github" with "you-local from your PC/Laptop/Computer".
 For that close the browser if have something opened and then:

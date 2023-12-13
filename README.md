@@ -41,9 +41,11 @@ For that close the browser if have something opened(in Browser) which running in
    c. follow the above steps...(where replace "your-friend"-role with "you"-role :)...enjoy!
 
    Also can be both roles("you" and "your-friend") can running locally on same PC-machine or in separate PC-machines.
-
-   
-   
+      
    So the roles("you" and "your-friendly") can running in any combination of locally(on your PC) and/or remotely(github or other CDN or other hosting)
 
+   Anyway the PC-machines can have firewalls because the handshake can avoid these obstacles using public external STUN server(which is part of ICE group of servers).
+   
+   In this code you can see that ICE-servers:
+   
    Finally, if want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository(thanks a lot for this code) 

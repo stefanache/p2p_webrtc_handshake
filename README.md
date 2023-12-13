@@ -58,7 +58,7 @@ the past, to can begin one new experiment/showcase... and then:
 	   
 	   c. one role: follow the above steps...(where replace "your-friend"-role with "you"-role :)...enjoy!
 
-   Also can be both roles("you" and "your-friend") can running locally on same PC-machine or in separate PC-machines.
+   Also can be both roles("you" and/or "your-friend") can running locally on same PC-machine or in separate PC-machines.
       
    So the roles("you" and "your-friendly") can running in any combination of locally(on your PC) and/or remotely(github or other CDN or other hosting)
 

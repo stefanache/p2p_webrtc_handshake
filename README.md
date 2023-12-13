@@ -9,7 +9,7 @@ How can use it(how proceed to handshake peer-to-peer/p2p)?
 5. your-friend: waiting...must be patient:)
 6. you: click on button labeled as "Create-Offer" and waiting to generate/write some text in it's associate textarea-box
 7. you: copy this selected text in your clipboard(copy-paste):
-   click on local Offer's textarea...then
+   click on your Offer's textarea...then
    Ctrl+A to select it's content and then
    Ctrl+C to copy it into your clipboard.
 8. you: then, send copy-pasted content using web-email(paste the content with Ctrl+V into message body yahoo.com, gmail.com, outlook.com...)

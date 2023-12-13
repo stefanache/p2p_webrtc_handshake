@@ -4,8 +4,8 @@ How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 
 	1. you: open Chrome browser and write this link/address: 
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
-	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your ...
- 	        friend via email. In this email you even can inform your friend about this procedure ... 
+	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your
+ 	        friend via email. In this email you even can inform your friend about this procedure
  	         shown in my this showcase:
  	        "https://github.com/stefanache/p2p_webrtc_handshake/blob/main/README.md"
 	3. you: call your-friend and tell to open and he(she), in his(her's) browser, the same received link:
@@ -13,32 +13,32 @@ How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 	4. your-friend: open Chrome browser and write this received link via email:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
 	5. your-friend: waiting... (BTW both end-persons must be ... patient in manual p2p handshake... :)
-	6. you: click on button labeled as "Create-Offer" and waiting... until will be generated/written ...
+	6. you: click on button labeled as "Create-Offer" and waiting... until will be generated/written
 	        some text in its associate/joined textarea-box
 	7. you: copy this selected text in yours clipboard(copy-paste):
 		   click on your Offer's textarea...then
 		   Ctrl+A to select its content and then
 		   Ctrl+C to copy it into your clipboard.
-	8. you: then, send this copy-pasted content using web-email(if want, you can use any alternative ...
+	8. you: then, send this copy-pasted content using web-email(if want, you can use any alternative
  	        of communication-channel)
- 	        Note: paste the content with Ctrl+V into message body @ yahoo.com, gmail.com, outlook.com ...
-	9. you: call your friend and tell that you send/emailed one text-content which he need to put in ...
+ 	        Note: paste the content with Ctrl+V into message body @ yahoo.com, gmail.com, outlook.com
+	9. you: call your friend and tell that you send/emailed one text-content which he need to put in
 	         his(her's) Answer's textarea(see below rectangular textarea)
-	10. your-friend: copy-paste the content received via email to put it in his Answer's textarea...
-	11. your-friend: click on "Answer" button... and waiting... to generate/apear one text into the ...
+	10. your-friend: copy-paste the content received via email to put it in his Answer's textarea
+	11. your-friend: click on "Answer" button... and waiting... to generate/apear one text into the
 	        above textarea rectangular-box "Create-Offer"-named
 	12. your-friend: click on "Create-Offer" button(maybe better said: "Create Contra-Offer");
- 	        this step is already done(in automatically-mode) in step 11.... so you can ...
+ 	        this step is already done(in automatically-mode) in step 11.... so you can 
  	        skip it if you want.
  	        (I put this step 12 to see that the thinks will be done as in miror/similary)
-	13. your-friend: then, copy(Ctrl+A and Ctrl+V) the content generated into "Create-Offer" ...
+	13. your-friend: then, copy(Ctrl+A and Ctrl+V) the content generated into "Create-Offer"
 	        textarea box  and  then he send(emailed) it to you(Ctrl+V)
-	14. you: will receive the email from your-friend and copy-paste it into "Answer" textarea box ...
+	14. you: will receive the email from your-friend and copy-paste it into "Answer" textarea box
 	        and then click on "Answer" button
 	15. you: ...waiting to see in video the siluet/face of your friend...then
-	16. you: begin chatting: write some text as message and then send it to your friend by click on ... 
+	16. you: begin chatting: write some text as message and then send it to your friend by click on 
 	        "Send" button(the last control button)
-	17. your-friend: simmilary send to you one response...
+	17. your-friend: simmilary send to you one response
 	... and so on...enjoy!
 
 <a href="https://stefanache.github.io/p2p_webrtc_handshake/">Remark</a>

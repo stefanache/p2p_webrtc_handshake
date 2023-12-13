@@ -3,9 +3,9 @@
 How can use it(how proceed to) in manual-handshake peer-to-peer(p2p) case?
 
 	1. you: open Chrome browser and open this link: https://stefanache.github.io/p2p_webrtc_handshake/
-	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your ...
- 	        friend via email. In this email you even inform your friend about this procedure shown in my 
- 	        this showcase:
+	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your...
+ 	        friend via email. In this email you even inform your friend about this procedure shown in
+ 	         my this showcase:
  	        "https://github.com/stefanache/p2p_webrtc_handshake/blob/main/README.md"
 	3. you: call your-friend and tell to open and he(she), in his(her's) browser, same link received:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"

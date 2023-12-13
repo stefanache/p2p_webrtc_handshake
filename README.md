@@ -60,7 +60,7 @@ the past, to can begin one new experiment/showcase... and then:
 
    Also can be both roles("you" and/or "your-friend") can running locally on same PC-machine or in separate PC-machines.
       
-   So the roles("you" and "your-friend") can running in any combination of locally(on your PC) and/or remotely(github or other CDN or other hosting)
+   So the roles("you" and "your-friend") can running in any combination of locally(on his PC) and/or remotely(using my github repository or other repository/CDN/hosting)
 
    Anyway the PC-machines can have firewalls because the handshake can avoid these obstacles using public external STUN server(which is part of ICE group of servers) as broker(intermediate or third part).
    

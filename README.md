@@ -68,5 +68,7 @@ For that close the browser if have something opened(in Browser) which running in
    For more details you can consult <a href="https://subspace.com/resources/stun-101-subspace">that</a> tutorial(wiki: <a href="https://en.wikipedia.org/wiki/NAT_traversal">NAT traversal</a>).
    
    Finally, if want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository(thanks a lot for this code) 
-   Also can avoid this manual handshake-procedure with automation process if these contens will be stored into servers(for example  db-server like MySQL) and in this-case need one external web-microservice
+   
+   Also can avoid this manual handshake-procedure with automation process if these content will be stored into servers(for example  db-server like "MySQL" or maybe one service like "Firebase") and in this-case need one external web-[micro]service
    (GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... or UDP/TCP/raw-socket proto-service ) to transport the information exchanged(with or no encryption) between both ends.
+   In this last case the ends use the microservice as "shared-memory" to can comunicate one with other.

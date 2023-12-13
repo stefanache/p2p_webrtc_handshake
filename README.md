@@ -44,6 +44,6 @@ For that close the browser if have something opened(in Browser) which running in
 
    
    
-   So the roles("you" and"your-friendly") can running in any combination of locally(on your PC) and/or remotely(github or other CDN or other hosting)
+   So the roles("you" and "your-friendly") can running in any combination of locally(on your PC) and/or remotely(github or other CDN or other hosting)
 
    Finally, if want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository(thanks a lot for this code) 

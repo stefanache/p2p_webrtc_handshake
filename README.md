@@ -65,7 +65,7 @@ the past, to can begin one new experiment/showcase... and then:
    Anyway, regardless of what approach you will can have the PC-machines with or no firewalls because the handshake can avoid these obstacles using one public external STUN server(which is part of ICE group of servers) 
    from pull of public servers exposed and in function at the run-time as broker(intermediate or third part).
    
-   In this code you can see that ICE-servers:
+   In this code( in main file index.html) you can see how indicate or configurate that ICE-servers(STUN and/or TURN):
 
          	var handshake_config = { iceServers: [{"urls":"stun:stun.l.google.com:19302"}] };
           

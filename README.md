@@ -12,7 +12,8 @@ How can use it(how proceed to handshake peer-to-peer/p2p)?
 	   click on your Offer's textarea...then
 	   Ctrl+A to select it's content and then
 	   Ctrl+C to copy it into your clipboard.
-	8. you: then, send copy-pasted content using web-email(paste the content with Ctrl+V into message body yahoo.com, gmail.com, outlook.com...)
+	8. you: then, send copy-pasted content using web-email
+ 	(paste the content with Ctrl+V into message body yahoo.com, gmail.com, outlook.com...)
 	9. you: call your friend and tell that you send/emailed one text-content which need to put in her's Answer's textarea)
 	10. your-friend: copy-paste the content received via email and put it in your Answer's textarea...then
 	11. your-friend: click on "Answer" button... and waiting to generate/apear one text in his "Create-Offer" textarea box.

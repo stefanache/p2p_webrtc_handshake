@@ -7,7 +7,7 @@ How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
  	        friend via email. In this email you even can inform your friend about this procedure... 
  	         shown in my this showcase:
  	        "https://github.com/stefanache/p2p_webrtc_handshake/blob/main/README.md"
-	3. you: call your-friend and tell to open and he(she), in his(her's) browser, same link received:
+	3. you: call your-friend and tell to open and he(she), in his(her's) browser, same received link:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
 	4. your-friend: open Chrome browser and open this link received via email:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"

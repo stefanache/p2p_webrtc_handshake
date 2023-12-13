@@ -4,7 +4,7 @@ How can use it(how proceed to handshake peer-to-peer/p2p)?
 
 	1. you: open Chrome browser and open this link: https://stefanache.github.io/p2p_webrtc_handshake/
 	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your friend
-	3. you: call your friend and tell to open and he in its browser same link:
+	3. you: call your friend and tell to open and he, in her's browser, same link:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
 	4. your-friend: open Chrome browser and open this link:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"

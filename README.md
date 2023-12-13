@@ -71,6 +71,6 @@ For that close the browser if have something opened(in Browser) which running in
    (thanks a lot for this code) 
    
    Note: we can avoid this heavy manual handshake-procedure with one automation-process to can automatically store the content of messeges(SDPs) in some servers(for eg.  db-server like "MySQL" or maybe one service like "Firebase") and 
-   in this-case need one external web-[micro]service(which implement protocols like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... or UDP/TCP/raw-socket or other proto-service ) to transport the 
+   in this-case need one external web-[micro]service(which implement protocols like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... or UDP/TCP/raw-socket or other protocol service ) to transport the 
    information exchanged(with or no encryption) between both ends.
    In this last case, to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" .

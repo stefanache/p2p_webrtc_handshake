@@ -29,7 +29,8 @@ In above scenery the both "you" and "your-friend" will be two github(remotely/in
 
 For testing you can replace "your-friend"(which means the remotely-peer dialog) with local-peer.
 
-So in this case you can remotely-chating beetwen "you-remote from github" with "you-local from your PC/Laptop/Computer".
+So in this case you can remotely-chating beetwen "you"(-remote from github) with "your-friend"(local from your PC/Laptop/Computer) or viceversa.
+Also can use same your computer for both roles and in this case the "your-friend"="you"(yourself).
 
 For that close the browser if have something opened(in Browser) which running in the past and then:
 

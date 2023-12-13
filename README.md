@@ -36,7 +36,7 @@ How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 	        then click on "Answer" button
 	15. you: ...waiting to see in video the siluet/face of your friend...then
 	16. you: begin chatting: write some text as message and then send it to your friend by click on... 
-	        "Send" button
+	        "Send" button(the last control button)
 	17. your-friend: simmilary send to you one response...
 	... and so on...enjoy!
 

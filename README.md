@@ -5,9 +5,9 @@ How can use it(how proceed to) in manual-handshake peer-to-peer(p2p) case?
 	1. you: open Chrome browser and open this link: https://stefanache.github.io/p2p_webrtc_handshake/
 	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your friend
  	        via email
-	3. you: call your-friend and tell to open and he(she), in his(her's) browser, same link:
+	3. you: call your-friend and tell to open and he(she), in his(her's) browser, same link received:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
-	4. your-friend: open Chrome browser and open this link:
+	4. your-friend: open Chrome browser and open this link emailed:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
 	5. your-friend: waiting... (both end-persons must be ... patient :)
 	6. you: click on button labeled as "Create-Offer" and waiting to generate/write some text in it's ...

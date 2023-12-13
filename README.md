@@ -57,7 +57,8 @@ the past, to can begin one new experiment/showcase... and then:
 	   
 	   b. one role: click to run locally the batch file "runAsAdmin_p2p_handshake.bat"
 	   
-	   c. one role: follow the above 1-17(except 1 and 4) steps...(where replace "your-friend"-role with "you"-role :)
+	   c. one role: follow the above 1-17(except 1 and 4) steps...
+	   (where replace "your-friend"-role with "you"-role :)
     
     	   ...enjoy!
 

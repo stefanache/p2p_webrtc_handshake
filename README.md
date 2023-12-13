@@ -86,7 +86,7 @@ the past, to can begin one new experiment/showcase... and then:
    (Congratulation and thank you ... a lot for ... this code!) 
    
    Note: we can avoid this heavy manual handshake-procedure with one automation-process to can automatically store the content of messeges(SDPs) in some servers(for eg.  db-server like "MySQL" or maybe one service like "Firebase") and 
-   in this-case need one external web-[micro]service(which implement protocols like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... or UDP/TCP/raw-socket or other/any protocol service with one 
+   in this-case need/must in backend one external web-[micro]service(which implement protocols like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... or UDP/TCP/raw-socket or other/any protocol service with one 
    exception: webrtc... :) to transport the information exchanged(with or no encryption) between both ends.
    In this last case, to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" implemented as third/broker/intermediate part(as ICE-servers: STUN-like or TURN-like).
    This own complicated task of implementing of third-parts can be done by you or can use(for free or no) ready-made solutions( in this case, for free, the ghithub-repositories can be the most good CDN-friend for you :)

@@ -71,4 +71,4 @@ For that close the browser if have something opened(in Browser) which running in
    
    Also can avoid this manual handshake-procedure with automation process if these content will be stored into servers(for example  db-server like "MySQL" or maybe one service like "Firebase") and in this-case need one external web-[micro]service
    (GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... or UDP/TCP/raw-socket proto-service ) to transport the information exchanged(with or no encryption) between both ends.
-   In this last case the ends use the microservice as "shared-memory" to can comunicate one with other.
+   In this last case the ends use the service/server which implement the transport protocol as "shared-memory" to can comunicate one with other.

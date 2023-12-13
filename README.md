@@ -1,6 +1,6 @@
 <a href="https://stefanache.github.io/p2p_webrtc_handshake/">p2p_webrtc_handshake</a>
 
-How can use it(how proceed to handshake peer-to-peer/p2p)?
+How can use it(how proceed to) in handshake peer-to-peer/p2p case?
 
 	1. you: open Chrome browser and open this link: https://stefanache.github.io/p2p_webrtc_handshake/
 	2. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your friend

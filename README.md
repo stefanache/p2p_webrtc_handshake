@@ -47,7 +47,7 @@ For that close the browser if have something opened(in Browser) which running in
       
    So the roles("you" and "your-friendly") can running in any combination of locally(on your PC) and/or remotely(github or other CDN or other hosting)
 
-   Anyway the PC-machines can have firewalls because the handshake can avoid these obstacles using public external STUN server(which is part of ICE group of servers).
+   Anyway the PC-machines can have firewalls because the handshake can avoid these obstacles using public external STUN server(which is part of ICE group of servers) as broker(intermediar or third part).
    
    In this code you can see that ICE-servers:
 

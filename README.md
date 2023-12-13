@@ -25,6 +25,8 @@ How can use it(how proceed to handshake peer-to-peer/p2p)?
 
 <a href="https://stefanache.github.io/p2p_webrtc_handshake/">Remark</a>
 
+In above scenery the both "you" and "you-friend" will be two github(remontely/internet)-roles.
+
 For testing you can replace "your-friend"(which means the remotely-peer dialog) with local-peer.
 
 So in this case you can remotely-chating beetwen "you-remote from github" with "you-local from your PC/Laptop/Computer".
@@ -35,4 +37,8 @@ For that close the browser if have something opened and then:
    
    b. click to run locally the batch file "runAsAdmin_p2p_handshake.bat"
    
-   c. follow the above steps...(where replce "your-friend"-role with "you"-role :)...enjoy!
+   c. follow the above steps...(where replace "your-friend"-role with "you"-role :)...enjoy!
+
+   Also can be both roles("you" and"your-friendly") can running locally or in separate PC-machine.
+   
+   So the roles("you" and"your-friendly") can running in any combination of locally(on PC) and/or remotely(github)

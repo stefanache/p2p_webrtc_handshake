@@ -47,5 +47,11 @@ For that close the browser if have something opened(in Browser) which running in
    Anyway the PC-machines can have firewalls because the handshake can avoid these obstacles using public external STUN server(which is part of ICE group of servers).
    
    In this code you can see that ICE-servers:
+
+         	var handshake_config = { iceServers: [{"urls":"stun:stun.l.google.com:19302"}] };
+          
+	         var pc = new RTCPeerConnection(handshake_config);
+   
+   For more details you can consult <a href="https://subspace.com/resources/stun-101-subspace">that</a> tutorial.
    
    Finally, if want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository(thanks a lot for this code) 

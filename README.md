@@ -82,8 +82,8 @@ the past, to can begin one new experiment/showcase... and then:
    (or are already in operation) ) in ...
    our end-to-end (e2e) communication path
    
-   Finally, if want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository
-   (Congratulation and thank you ... a lot for ... this code!) 
+   If want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository
+   (Congratulation and thank you ... a lot for ... this code!) to add specific code for this part[s].
    
    Note: we can avoid this heavy part of manual handshake-procedure from our webrtc-chat app using the automation of this process to can "automatically" store in back-end(maybe php-based for e.g.)the content of messeges(the SDPs) in some servers(for eg.  
    db-server based like "MySQL"+"PhP" or maybe one service like "Firebase") and in this-case need/must in backend one external web-[micro]service(which implement protocol like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... 
@@ -94,3 +94,7 @@ the past, to can begin one new experiment/showcase... and then:
    From your point-view, as client of these ready-made public remotely-hosted-services/servers, it can be seen as one "serverless"-solution because for you the single task remain to using(even locally) this remote service/server and not to done/implementimg it.
    These kind of models of application(serverless) is very important because permit to have implementation of one light-client which is maybe simple static page(like this index.html page of chatting) and which can be hosted maybe into CDN  for e.g. 
    (github-like for free)
+
+   Finally, it should also be said that in the transport of audio+video information (media-streaming) other specific protocols are involved (RTP, RTMP,...)
+
+ 

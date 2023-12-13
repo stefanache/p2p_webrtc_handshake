@@ -31,7 +31,7 @@ How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
  	        skip it if you want.
  	        (I put this step 12 to see that the thinks will be done as in miror/similary)
 	13. your-friend: then, copy(Ctrl+A and Ctrl+V) the content generated into "Create-Offer" textarea...
-	        box  and  emailed to you(Ctrl+V)
+	        box  and  then he send(emailed) it to you(Ctrl+V)
 	14. you: will receive the email from your-friend and copy-paste it into "Answer" textarea box and...
 	        then click on "Answer" button
 	15. you: ...waiting to see in video the siluet/face of your friend...then

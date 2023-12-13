@@ -12,7 +12,7 @@ How can use it(how proceed to) in manual-handshake peer-to-peer(p2p) case?
 	4. your-friend: open Chrome browser and open this link emailed:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
 	5. your-friend: waiting... (both end-persons must be ... patient in manual p2p handshake... :)
-	6. you: click on button labeled as "Create-Offer" and waiting until will be generated/written some ...
+	6. you: click on button labeled as "Create-Offer" and waiting until will be generated/written some...
 	        text in its associate textarea-box
 	7. you: copy this selected text in yours clipboard(copy-paste):
 		   click on your Offer's textarea...then

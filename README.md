@@ -9,7 +9,7 @@ How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
  	        "https://github.com/stefanache/p2p_webrtc_handshake/blob/main/README.md"
 	3. you: call your-friend and tell to open and he(she), in his(her's) browser, same link received:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
-	4. your-friend: open Chrome browser and open this link emailed:
+	4. your-friend: open Chrome browser and open this link received via email:
  	        "https://stefanache.github.io/p2p_webrtc_handshake/"
 	5. your-friend: waiting... (both end-persons must be ... patient in manual p2p handshake... :)
 	6. you: click on button labeled as "Create-Offer" and waiting until will be generated/written...

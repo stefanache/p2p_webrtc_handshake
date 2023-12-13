@@ -84,13 +84,13 @@ the past, to can begin one new experiment/showcase... and then:
    If want to have and file-transfer facility and/or the recording of audio-conversation in your show-case then you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository
    (Congratulation and thank you ... a lot for ... this code!) to add specific code for this part[s].
    
-   Note: 
+   Note:
+   
    We can avoid this heavy part of manual handshake-procedure from our webrtc-chat app using the automation of this process to can "automatically" store in back-end(maybe php-based for e.g.)the content of messeges(the SDPs) in some servers(for eg.  
    db-server based like "MySQL"+"PhP" or maybe one service like "Firebase") and in this-case need/must in backend one external web-[micro]service(which implement protocol like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... 
    or UDP/TCP/raw-socket or other/any protocol service,certainly with one exception: webrtc ... :) ... because the implementation of webrtc cannot be based on itself)to transport the ascii-information(plain-text) exchanged(with or no encryption) between both ends.
    In this last case(automatic solution), to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" implemented as third/broker/intermediate part(as ICE-servers: STUN-like or TURN-like).
    This own complicated task of implementing of third-parts can be done by you or can use(for free or no, with installemnt or no) ready-made solutions( in this case, for free, the ghithub-repositories can be the most good CDN-friend for you :)
-   
    From your point-view, as client of these ready-made public remotely-hosted-services/servers, it can be seen as one "serverless"-solution because for you the single task remain to using(even locally) this remote service/server and not to done/implementimg it.
    These kind of models of application(serverless) is very important because permit to have implementation of one light-client which is maybe simple static page(like this index.html page of chatting) and which can be hosted maybe into CDN  for e.g. 
    (github-like for free)

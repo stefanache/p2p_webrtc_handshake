@@ -18,7 +18,7 @@ How can use it(how proceed to) in manual-handshake peer-to-peer(p2p) case?
 		   click on your Offer's textarea...then
 		   Ctrl+A to select its content and then
 		   Ctrl+C to copy it into your clipboard.
-	8. you: then, send copy-pasted content using web-email
+	8. you: then, send copy-pasted content using web-email(you can use any alternative of communication channel)
  	        (paste the content with Ctrl+V into message body @ yahoo.com, gmail.com, outlook.com...)
 	9. you: call your friend and tell that you send/emailed one text-content which need to put in ...
 	         her's Answer's textarea

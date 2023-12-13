@@ -90,7 +90,7 @@ the past, to can begin one new experiment/showcase... and then:
    db-server based like "MySQL"+"PhP" or maybe one service like "Firebase") and in this-case need/must in backend one external web-[micro]service(which implement protocol like GraphQL/REST, gRPC, SOAP with XML/JSON messenging, eTransport, Websocket, Pub/Sub,... 
    or UDP/TCP/raw-socket or other/any protocol service,certainly with one exception: webrtc(see **) to transport the ascii-information(plain-text) exchanged(with or no encryption) between both ends.
    
-   (** because the implementation of webrtc cannot be based on itself :)
+   (** because the implementation of webrtc certainly cannot be based on itself :)
    
    In this last case(automatic solution), to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" implemented as third/broker/intermediate part(as ICE-servers: STUN-like or TURN-like).
    

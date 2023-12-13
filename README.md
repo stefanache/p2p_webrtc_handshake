@@ -92,7 +92,8 @@ the past, to can begin one new experiment/showcase... and then:
    
    (** because the implementation of webrtc certainly cannot be based on itself :)
    
-   In this last case(automatic solution), to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" implemented as third/broker/intermediate part(as ICE-servers: STUN-like or TURN-like).
+   In this last case(automatic solution), to can comunicate one with other, the ends use the service/server which implement the transport protocol as "shared-memory" implemented as third/broker/intermediate part
+   (similar with ICE-servers case: STUN-like or TURN-like).
    
    This own complicated task of implementing of third-parts can be done by you or can use(for free or no, with installemnt or no) ready-made solutions( in this case, for free, the ghithub-repositories can be the most good CDN-friend for you :)
    

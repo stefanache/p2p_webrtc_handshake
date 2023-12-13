@@ -25,7 +25,7 @@ How can use it(how proceed to handshake peer-to-peer/p2p)?
 
 <a href="https://stefanache.github.io/p2p_webrtc_handshake/">Remark</a>
 
-In above scenery the both "you" and "your-friend" will be two github(remontely/internet)-roles.
+In above scenery the both "you" and "your-friend" will be two github(remotely/internet)-roles.
 
 For testing you can replace "your-friend"(which means the remotely-peer dialog) with local-peer.
 

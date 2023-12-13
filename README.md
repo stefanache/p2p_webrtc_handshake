@@ -40,5 +40,9 @@ For that close the browser if have something opened(in Browser) which running in
    c. follow the above steps...(where replace "your-friend"-role with "you"-role :)...enjoy!
 
    Also can be both roles("you" and"your-friendly") can running locally or in separate PC-machine.
+
+   
    
    So the roles("you" and"your-friendly") can running in any combination of locally(on PC) and/or remotely(github or other CDn or other hosting)
+
+   Finally, if want to have and file-transfer facility and/or the recording of audio-conversation in your show-case tehn you can consult <a href="https://github.com/svarunan/serverless-webrtc/tree/master">that</a> original-repository(thanks a lot for this code) 

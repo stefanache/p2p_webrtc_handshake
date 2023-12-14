@@ -20,7 +20,7 @@ How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 		   Ctrl+A to select its content and then
 		   Ctrl+C to copy it into your clipboard.
 	08. you: then, send this copy-pasted content using web-email(if want, you can use any alternative
- 	         of communication-channel)
+ 	         of communication-channel like whatshap or maybe other instant messenging o even phone's SMS)
  	         Note: paste the content with Ctrl+V into message body @ yahoo.com, gmail.com, outlook.com
 	09. you: call your friend and tell that you send/emailed one text-content which he need to put in
 	         his(her's) Answer's textarea(see below rectangular textarea)

@@ -13,12 +13,11 @@ rn true<!DOCTYPE html>
 	<link rel="icon" type="image/x-icon" href="./favicon.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript">
-	  	// to avoid the error, the parameter [sendResponse] is necessary!
-		chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
-  			// do something ...
-
-  			// this line seems meaningless but you have to invoke it to avoid error.
-  			return true;
+	  	browser.runtime.onMessage.addListener((data, sender) => {
+		  if (data.type === "handle_me") {
+		    return Promise.resolve("done");
+		  }
+		  return false;
 		});
 	</script>
   </head>

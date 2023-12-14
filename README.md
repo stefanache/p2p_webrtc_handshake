@@ -1,4 +1,4 @@
-<a href="https://stefanache.github.io/p2p_webrtc_handshake/">p2p_webrtc_handshake</a>
+<a href="https://stefanache.github.io/p2p_webrtc_handshake/" target="_blank">p2p_webrtc_handshake</a>
 
 How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 

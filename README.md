@@ -2,15 +2,15 @@
 
 How can use it(how to proceed) in manual-handshake peer-to-peer(p2p) case?
 
-	01. you: open Chrome browser and write this link/address: 
+	01. you: open Chrome browser and write this link/address(without quotation mark): 
  	         "https://stefanache.github.io/p2p_webrtc_handshake/"
 	02. you: copy this link (https://stefanache.github.io/p2p_webrtc_handshake/) and send it to your
  	         friend via email. In this email you even can inform your friend about this procedure
- 	         shown in my this showcase:
+ 	         shown in my this showcase(without quotation mark):
  	         "https://github.com/stefanache/p2p_webrtc_handshake/blob/main/README.md"
 	03. you: call your-friend and tell to open and he(she), in his(her's) browser, the same received 
- 	         link: "https://stefanache.github.io/p2p_webrtc_handshake/"
-	04. your-friend: open Chrome browser and write this received link via email:
+ 	         link(without quotation mark): "https://stefanache.github.io/p2p_webrtc_handshake/"
+	04. your-friend: open Chrome browser and write this received link via email(without quotation mark):
  	        	 "https://stefanache.github.io/p2p_webrtc_handshake/"
 	05. your-friend: waiting... (BTW both end-persons must be ... patient in manual p2p handshake :)
 	06. you: click on button labeled as "Create-Offer" and waiting... until will be generated/written

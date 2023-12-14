@@ -1,19 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
-<html>
   <head>
-  	<meta charset="utf-8" />
-  	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />	  
-  	<title>P2P WebRTC(manual handshake)</title>
-  	<style type="text/css">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="P2P WebRTC Chat With Manual HandShake"
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />	  
+	<title>P2P WebRTC(manual handshake)</title>
+	<style type="text/css">
 		.msg_sent{
 			color:blue;
 		}      
-  	</style>
-	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	</style>
+	<link rel="icon" href="favicon.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript">
-	  	//some code if need
+	<script>
+	      // Add a global error event listener early on in the page load, to help ensure that browsers
+	      // which don't support specific functionality still end up displaying a meaningful message.
+	      window.addEventListener('error', function(error) {
+		if (ChromeSamples && ChromeSamples.setStatus) {
+		  console.error(error);
+		  ChromeSamples.setStatus(error.message + ' (Your browser may not support this feature.)');
+		  error.preventDefault();
+		}
+	      });
 	</script>
   </head>
 

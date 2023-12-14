@@ -58,6 +58,7 @@
 	    
 	chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 	  // ... handle message
+	  sendResponse({message: true});
 	  return true // Error message says you already return true
 	})
 	    

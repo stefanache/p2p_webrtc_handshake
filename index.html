@@ -55,11 +55,16 @@
 	var context;
 	var source;
 	var _chat_Channel;
-
+	    
+	chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+	  // ... handle message
+	  return true // Error message says you already return true
+	})
+	    
 	function err_Handler(err) {
 	    console.log('err:\n',err);
 	}
-	    
+	  
 	function chat_Channel(e) {
 	    _chat_Channel.onopen = function(e) {
 	        console.log('_chat_Channel is open', e);

@@ -113,4 +113,4 @@ the past, to can begin one new experiment/showcase... and then:
  
    PS: If want to use that chat in your html (even static) page then put/include in your body the following line:
    
-   	<a href="https://stefanache.github.io/p2p_webrtc_handshake/">p2p_webrtc_handshake</a>
+   	<a href="https://stefanache.github.io/p2p_webrtc_handshake/" target="_blank" title="P2P WebRTC chat with manual handshake"">p2p_webrtc_handshake</a>

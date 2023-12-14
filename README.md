@@ -111,6 +111,6 @@ the past, to can begin one new experiment/showcase... and then:
    In conclusion, you will find even free public service/pull functional servers both for the signaling(ICE,handshake...) part and for the media streaming part.
 
  
-   [Link text]([https://website-name.com](https://stefanache.github.io/p2p_webrtc_handshake/) 'PS:') If want to use that chat in your html (even static) page then put/include in your body the following line:
+   [PS:](https://website-name.com](https://stefanache.github.io/p2p_webrtc_handshake/ 'P2P WebRTC Chat With Manual HandShake') If want to use that chat in your html (even static) page then put/include in your body the following line:
    
-   	<a href="https://stefanache.github.io/p2p_webrtc_handshake/" target="_blank" title="P2P WebRTC Chat With Manual HandShake"">p2p_webrtc_handshake</a>
+   	<a href="https://stefanache.github.io/p2p_webrtc_handshake/" target="_blank" title="P2P WebRTC Chat With Manual HandShake">p2p_webrtc_handshake</a>

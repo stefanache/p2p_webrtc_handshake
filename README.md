@@ -103,7 +103,14 @@ the past, to can begin one new experiment/showcase... and then:
    These kind of models of application(serverless) is very important because permit to have implementation of one light-client which is maybe simple static page(like this index.html page of chatting) and which can be hosted maybe into CDN  for e.g. 
    (github-like for free)
 
+
+
+
    Finally,in this note, maybe it should also be said that in the transport of audio+video information (media-streaming) other specific streaming server/protocols are involved (RTP, RTMP[S], MPEG-DASH, HLS, RTSP, ... codec-uri:H.26[4 or 5], VP[8 or n9])
    
    In conclusion, you will find even free public service/pull functional servers both for the signaling(ICE,handshake...) part and for the media streaming part.
+
  
+   PS: If want to use that chat in your html (even static) page then put/include in your body the following line:
+   
+   	<a href="https://stefanache.github.io/p2p_webrtc_handshake/">p2p_webrtc_handshake</a>
